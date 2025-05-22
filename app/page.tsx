@@ -63,7 +63,7 @@ export default function Home() {
             </div>
             <div className="relative">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-04-18%20153954-sTDt2Dma1Hax23EhsaMnyYMCcT1zYy.png"
+                src="/images/hero-illustration.svg"
                 alt="Child illustration"
                 width={550}
                 height={550}
@@ -174,7 +174,7 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-04-18%20154050-hglh3tdpFHlMfzEuYhXuYRi1K4cIjJ.png"
+                  src="/images/Mission.jpg"
                   alt="Two people smiling at the beach"
                   width={600}
                   height={400}
@@ -499,6 +499,7 @@ export default function Home() {
                 </div>
 
                 <div className="grid md:grid-cols-2 gap-8 items-center">
+                  <div> </div>
                   <div className="md:hidden"></div>
                   <div className="md:pl-16">
                     <div className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-emerald-500 text-white font-bold mb-4 md:absolute md:left-1/2 md:transform md:-translate-x-1/2 z-10">
@@ -562,35 +563,34 @@ export default function Home() {
                 </div>
 
                 <div className="grid md:grid-cols-2 gap-8 items-center">
-                  <div className="md:hidden"></div>
-                  <div className="md:pl-16">
-                    <div className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-emerald-500 text-white font-bold mb-4 md:absolute md:left-1/2 md:transform md:-translate-x-1/2 z-10">
-                      4
-                    </div>
-                    <h3 className="text-2xl font-bold mb-4">Ongoing Support</h3>
-                    <p className="text-gray-600">
-                      Connect with our specialists for implementation guidance and track progress with regular
-                      check-ins.
-                    </p>
-                    <ul className="space-y-2 mt-4">
-                      <li className="flex items-center text-sm text-gray-600">
-                        <CheckCircle2 className="h-4 w-4 text-emerald-500 mr-2" />
-                        <span>Scheduled check-ins with specialists</span>
-                      </li>
-                      <li className="flex items-center text-sm text-gray-600">
-                        <CheckCircle2 className="h-4 w-4 text-emerald-500 mr-2" />
-                        <span>Progress tracking dashboard</span>
-                      </li>
-                      <li className="flex items-center text-sm text-gray-600">
-                        <CheckCircle2 className="h-4 w-4 text-emerald-500 mr-2" />
-                        <span>Plan adjustments based on results</span>
-                      </li>
-                      <li className="flex items-center text-sm text-gray-600">
-                        <CheckCircle2 className="h-4 w-4 text-emerald-500 mr-2" />
-                        <span>Community support resources</span>
-                      </li>
-                    </ul>
-                  </div>
+                  <div> </div>
+                <div className="md:pl-16">
+  <div className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-emerald-500 text-white font-bold mb-4 md:absolute md:left-1/2 md:transform md:-translate-x-1/2 z-10">
+    4
+  </div>
+  <h3 className="text-2xl font-bold mb-4">Ongoing Support</h3>
+  <p className="text-gray-600">
+    Connect with our specialists for implementation guidance and track progress with regular check-ins.
+  </p>
+  <ul className="space-y-2 mt-4">
+    <li className="flex items-center text-sm text-gray-600">
+      <CheckCircle2 className="h-4 w-4 text-emerald-500 mr-2" />
+      <span>Scheduled check-ins with specialists</span>
+    </li>
+    <li className="flex items-center text-sm text-gray-600">
+      <CheckCircle2 className="h-4 w-4 text-emerald-500 mr-2" />
+      <span>Progress tracking dashboard</span>
+    </li>
+    <li className="flex items-center text-sm text-gray-600">
+      <CheckCircle2 className="h-4 w-4 text-emerald-500 mr-2" />
+      <span>Plan adjustments based on results</span>
+    </li>
+    <li className="flex items-center text-sm text-gray-600">
+      <CheckCircle2 className="h-4 w-4 text-emerald-500 mr-2" />
+      <span>Community support resources</span>
+    </li>
+  </ul>
+</div>
                 </div>
               </div>
             </div>
@@ -672,7 +672,7 @@ export default function Home() {
                   weeks, but he's like a different student academically."
                 </p>
                 <div>
-                  <p className="font-bold">Sarah Johnson</p>
+                  <p className="font-bold">Smita Patil</p>
                   <p className="text-emerald-100">Parent of a child with ADHD</p>
                 </div>
               </div>
@@ -725,7 +725,7 @@ export default function Home() {
                     <span className="font-bold text-emerald-500">AW</span>
                   </div>
                   <div>
-                    <p className="font-bold">Amanda Wilson</p>
+                    <p className="font-bold">Anita Gupta</p>
                     <p className="text-sm text-gray-600">School Psychologist</p>
                   </div>
                 </div>
@@ -758,7 +758,7 @@ export default function Home() {
                     <span className="font-bold text-emerald-500">RJ</span>
                   </div>
                   <div>
-                    <p className="font-bold">Robert Johnson</p>
+                    <p className="font-bold">Joseph Johnson</p>
                     <p className="text-sm text-gray-600">Father of 9-year-old with dysgraphia</p>
                   </div>
                 </div>
@@ -792,7 +792,7 @@ export default function Home() {
                     <span className="font-bold text-emerald-500">DR</span>
                   </div>
                   <div>
-                    <p className="font-bold">David Rodriguez</p>
+                    <p className="font-bold">Smit Nikam</p>
                     <p className="text-sm text-gray-600">Father of 9-year-old with dyslexia</p>
                   </div>
                 </div>
@@ -1106,7 +1106,7 @@ export default function Home() {
                       d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                     />
                   </svg>
-                  <span className="text-gray-400">+1 (800) 123-4567</span>
+                  <span className="text-gray-400">+91 9766030221</span>
                 </li>
                 <li className="flex items-start">
                   <svg
@@ -1145,8 +1145,8 @@ export default function Home() {
                     />
                   </svg>
                   <div className="text-gray-400">
-                    <p>123 Learning Lane</p>
-                    <p>San Francisco, CA 94103</p>
+                    <p>Vishwakarma Institute, Pune</p>
+                    <p>Pune, Maharshtra</p>
                   </div>
                 </li>
               </ul>
